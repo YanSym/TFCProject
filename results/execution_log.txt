@@ -1,0 +1,1566 @@
+-------------
+Start of the program
+Day: 11/04/2017
+-------------
+Time: 16:25:55
+-------------
+Num CPUs: 4
+-------------
+Number of elements for training: 12
+IDs for training:
+8 11 13 16 17 18 19 20 21 22 24 26 
+-------------
+Number of elements for testing: 15
+IDs for testing:
+1 2 3 4 5 6 7 9 10 12 14 15 23 25 28 
+-------------
+Start of the training
+-------------
+Operation mode: 4
+-------------
+End of the training:
+-------------
+Total number of pixels wml: 97062
+Total number of pixels wm and not wml: 775213
+-------------
+Size of data: (194124, 12)
+-------------
+Training the classifier using SVM...
+-------------
+Training using SVM finished in 55.31 seconds
+Start of the testings
+-------------
+Patient ID: 2
+-------------
+Number of wml Pixels: 31189
+Number of wm and not wml Pixels: 724402
+Number of wm Pixels: 755591
+Number of Pixels in the image: 8146600
+-------------
+End of testing for ID: 2
+-------------
+Total of wml Pixels: 31189
+Total of wm and not wml Pixels: 724402
+-------------
+Size of data: (755591, 12)
+Classifying using SVM...
+-------------
+Confusion Matrix:
+[703325 21077]
+[3057 28132]
+-------------
+Result for ID 2:
+True Negatives: 703325
+False Positives: 21077
+False Negatives: 3057
+True Positives: 28132
+-------------
+Total of evaluated pixels: 755591
+-------------
+User ID: 2 | Acurácia: 0.968
+-------------
+Error rate: 0.032
+-------------
+Sensibility: 0.902
+-------------
+Specificity: 0.971
+-------------
+Precision: 0.572
+-------------
+Prevalence: 0.041
+-------------
+User ID: 2 | Dice: 0.623
+-------------
+User ID: 2 | Dice with post-processing: 0.717 | std: 0.211
+-------------
+Patient ID: 6
+-------------
+Number of wml Pixels: 86847
+Number of wm and not wml Pixels: 731659
+Number of wm Pixels: 818506
+Number of Pixels in the image: 8146600
+-------------
+End of testing for ID: 6
+-------------
+Total of wml Pixels: 86847
+Total of wm and not wml Pixels: 731659
+-------------
+Size of data: (818506, 12)
+Classifying using SVM...
+-------------
+Confusion Matrix:
+[702217 29442]
+[3984 82863]
+-------------
+Result for ID 6:
+True Negatives: 702217
+False Positives: 29442
+False Negatives: 3984
+True Positives: 82863
+-------------
+Total of evaluated pixels: 818506
+-------------
+User ID: 6 | Acurácia: 0.959
+-------------
+Error rate: 0.041
+-------------
+Sensibility: 0.954
+-------------
+Specificity: 0.960
+-------------
+Precision: 0.738
+-------------
+Prevalence: 0.106
+-------------
+User ID: 6 | Dice: 0.746
+-------------
+User ID: 6 | Dice with post-processing: 0.800 | std: 0.208
+-------------
+Patient ID: 12
+-------------
+Number of wml Pixels: 20703
+Number of wm and not wml Pixels: 498306
+Number of wm Pixels: 519009
+Number of Pixels in the image: 8146600
+-------------
+End of testing for ID: 12
+-------------
+Total of wml Pixels: 20703
+Total of wm and not wml Pixels: 498306
+-------------
+Size of data: (519009, 12)
+Classifying using SVM...
+-------------
+Confusion Matrix:
+[472257 26049]
+[8047 12656]
+-------------
+Result for ID 12:
+True Negatives: 472257
+False Positives: 26049
+False Negatives: 8047
+True Positives: 12656
+-------------
+Total of evaluated pixels: 519009
+-------------
+User ID: 12 | Acurácia: 0.934
+-------------
+Error rate: 0.066
+-------------
+Sensibility: 0.611
+-------------
+Specificity: 0.948
+-------------
+Precision: 0.327
+-------------
+Prevalence: 0.040
+-------------
+User ID: 12 | Dice: 0.409
+-------------
+User ID: 12 | Dice with post-processing: 0.533 | std: 0.206
+-------------
+Patient ID: 15
+-------------
+Number of wml Pixels: 29737
+Number of wm and not wml Pixels: 735335
+Number of wm Pixels: 765072
+Number of Pixels in the image: 8146600
+-------------
+End of testing for ID: 15
+-------------
+Total of wml Pixels: 29737
+Total of wm and not wml Pixels: 735335
+-------------
+Size of data: (765072, 12)
+Classifying using SVM...
+-------------
+Confusion Matrix:
+[716994 18341]
+[4103 25634]
+-------------
+Result for ID 15:
+True Negatives: 716994
+False Positives: 18341
+False Negatives: 4103
+True Positives: 25634
+-------------
+Total of evaluated pixels: 765072
+-------------
+User ID: 15 | Acurácia: 0.971
+-------------
+Error rate: 0.029
+------------------------
+Start of the program
+Day: 11/04/2017
+-------------
+Time: 16:25:55
+-------------
+Num CPUs: 4
+-------------
+Number of elements for training: 12
+IDs for training:
+8 11 13 16 17 18 19 20 21 22 24 26 
+-------------
+Number of elements for testing: 15
+IDs for testing:
+1 2 3 4 5 6 7 9 10 12 14 15 23 25 28 
+-------------
+Start of the training
+-------------
+Operation mode: 4
+-------------
+End of the training:
+-------------
+Total number of pixels wml: 97062
+Total number of pixels wm and not wml: 775213
+-------------
+Size of data: (194124, 12)
+-------------
+Training the classifier using SVM...
+-------------
+Training using SVM finished in 55.31 seconds
+Start of the testings
+-------------
+Patient ID: 3
+-------------
+Number of wml Pixels: 4068
+Number of wm and not wml Pixels: 317283
+Number of wm Pixels: 321351
+Number of Pixels in the image: 8146600
+-------------
+End of testing for ID: 3
+-------------
+Total of wml Pixels: 4068
+Total of wm and not wml Pixels: 317283
+-------------
+Size of data: (321351, 12)
+Classifying using SVM...
+-------------
+Confusion Matrix:
+[304815 12468]
+[103 3965]
+-------------
+Result for ID 3:
+True Negatives: 304815
+False Positives: 12468
+False Negatives: 103
+True Positives: 3965
+-------------
+Total of evaluated pixels: 321351
+-------------
+User ID: 3 | Acurácia: 0.961
+-------------
+Error rate: 0.039
+-------------
+Sensibility: 0.975
+-------------
+Specificity: 0.961
+-------------
+Precision: 0.241
+-------------
+Prevalence: 0.013
+-------------
+User ID: 3 | Dice: 0.351
+-------------
+User ID: 3 | Dice with post-processing: 0.547 | std: 0.272
+-------------
+Patient ID: 5
+-------------
+Number of wml Pixels: 92304
+Number of wm and not wml Pixels: 741506
+Number of wm Pixels: 833810
+Number of Pixels in the image: 8146600
+-------------
+End of testing for ID: 5
+-------------
+Total of wml Pixels: 92304
+Total of wm and not wml Pixels: 741506
+-------------
+Size of data: (833810, 12)
+Classifying using SVM...
+-------------
+Confusion Matrix:
+[701115 40391]
+[16349 75955]
+-------------
+Result for ID 5:
+True Negatives: 701115
+False Positives: 40391
+False Negatives: 16349
+True Positives: 75955
+-------------
+Total of evaluated pixels: 833810
+-------------
+User ID: 5 | Acurácia: 0.932
+-------------
+Error rate: 0.068
+-------------
+Sensibility: 0.823
+-------------
+Specificity: 0.946
+-------------
+Precision: 0.653
+-------------
+Prevalence: 0.111
+-------------
+User ID: 5 | Dice: 0.596
+-------------
+User ID: 5 | Dice with post-processing: 0.684 | std: 0.228
+-------------
+Patient ID: 9
+-------------
+Number of wml Pixels: 146876
+Number of wm and not wml Pixels: 1005894
+Number of wm Pixels: 1152770
+Number of Pixels in the image: 8093700
+-------------
+End of testing for ID: 9
+-------------
+Total of wml Pixels: 146876
+Total of wm and not wml Pixels: 1005894
+-------------
+Size of data: (1152770, 12)
+Classifying using SVM...
+-------------
+Confusion Matrix:
+[990613 15281]
+[26574 120302]
+-------------
+Result for ID 9:
+True Negatives: 990613
+False Positives: 15281
+False Negatives: 26574
+True Positives: 120302
+-------------
+Total of evaluated pixels: 1152770
+-------------
+User ID: 9 | Acurácia: 0.964
+-------------
+Error rate: 0.036
+-------------
+Sensibility: 0.819
+-------------
+Specificity: 0.985
+-------------
+Precision: 0.887
+-------------
+Prevalence: 0.127
+-------------
+User ID: 9 | Dice: 0.703
+-------------
+User ID: 9 | Dice with post-processing: 0.697 | std: 0.296
+-------------
+Patient ID: 25
+-------------
+Number of wml Pixels: 1969
+Number of wm and not wml Pixels: 128752
+Number of wm Pixels: 130721
+Number of Pixels in the image: 8093700
+-------------
+End of testing for ID: 25
+-------------
+Total of wml Pixels: 1969
+Total of wm and not wml Pixels: 128752
+-------------
+Size of data: (130721, 12)
+Classifying using SVM...
+-------------
+Confusion Matrix:
+[124648 4104]
+[204 1765]
+-------------
+Result for ID 25:
+True Negatives: 124648
+False Positives: 4104
+False Negatives: 204
+True Positives: 1765
+-------------
+Total of evaluated pixels: 130721
+-------------
+User ID: 25 | Acurácia: 0.967
+-------------
+Error rate: 0.033
+-------------
+Sens-------------
+Start of the program
+Day: 11/04/2017
+-------------
+Time: 16:25:55
+-------------
+Num CPUs: 4
+-------------
+Number of elements for training: 12
+IDs for training:
+8 11 13 16 17 18 19 20 21 22 24 26 
+-------------
+Number of elements for testing: 15
+IDs for testing:
+1 2 3 4 5 6 7 9 10 12 14 15 23 25 28 
+-------------
+Start of the training
+-------------
+Operation mode: 4
+-------------
+End of the training:
+-------------
+Total number of pixels wml: 97062
+Total number of pixels wm and not wml: 775213
+-------------
+Size of data: (194124, 12)
+-------------
+Training the classifier using SVM...
+-------------
+Training using SVM finished in 55.31 seconds
+Start of the testings
+-------------
+Patient ID: 4
+-------------
+Number of wml Pixels: 183185
+Number of wm and not wml Pixels: 843087
+Number of wm Pixels: 1026272
+Number of Pixels in the image: 8093700
+-------------
+End of testing for ID: 4
+-------------
+Total of wml Pixels: 183185
+Total of wm and not wml Pixels: 843087
+-------------
+Size of data: (1026272, 12)
+Classifying using SVM...
+-------------
+Confusion Matrix:
+[811508 31579]
+[44721 138464]
+-------------
+Result for ID 4:
+True Negatives: 811508
+False Positives: 31579
+False Negatives: 44721
+True Positives: 138464
+-------------
+Total of evaluated pixels: 1026272
+-------------
+User ID: 4 | Acurácia: 0.926
+-------------
+Error rate: 0.074
+-------------
+Sensibility: 0.756
+-------------
+Specificity: 0.963
+-------------
+Precision: 0.814
+-------------
+Prevalence: 0.178
+-------------
+User ID: 4 | Dice: 0.671
+-------------
+User ID: 4 | Dice with post-processing: 0.697 | std: 0.108
+-------------
+Patient ID: 10
+-------------
+Number of wml Pixels: 84626
+Number of wm and not wml Pixels: 624088
+Number of wm Pixels: 708714
+Number of Pixels in the image: 8093700
+-------------
+End of testing for ID: 10
+-------------
+Total of wml Pixels: 84626
+Total of wm and not wml Pixels: 624088
+-------------
+Size of data: (708714, 12)
+Classifying using SVM...
+-------------
+Confusion Matrix:
+[608873 15215]
+[78085 6541]
+-------------
+Result for ID 10:
+True Negatives: 608873
+False Positives: 15215
+False Negatives: 78085
+True Positives: 6541
+-------------
+Total of evaluated pixels: 708714
+-------------
+User ID: 10 | Acurácia: 0.868
+-------------
+Error rate: 0.132
+-------------
+Sensibility: 0.077
+-------------
+Specificity: 0.976
+-------------
+Precision: 0.301
+-------------
+Prevalence: 0.119
+-------------
+User ID: 10 | Dice: 0.146
+-------------
+User ID: 10 | Dice with post-processing: 0.038 | std: 0.081
+-------------
+Patient ID: 23
+-------------
+Number of wml Pixels: 1368
+Number of wm and not wml Pixels: 278818
+Number of wm Pixels: 280186
+Number of Pixels in the image: 8146600
+-------------
+End of testing for ID: 23
+-------------
+Total of wml Pixels: 1368
+Total of wm and not wml Pixels: 278818
+-------------
+Size of data: (280186, 12)
+Classifying using SVM...
+-------------
+Confusion Matrix:
+[260843 17975]
+[176 1192]
+-------------
+Result for ID 23:
+True Negatives: 260843
+False Positives: 17975
+False Negatives: 176
+True Positives: 1192
+-------------
+Total of evaluated pixels: 280186
+-------------
+User ID: 23 | Acurácia: 0.935
+-------------
+Error rate: 0.065
+-------------
+Sensibility: 0.871
+-------------
+Specificity: 0.936
+-------------
+Precision: 0.062
+-------------
+Prevalence: 0.005
+-------------
+User ID: 23 | Dice: 0.110
+-------------
+User ID: 23 | Dice with post-processing: 0.437 | std: 0.344
+-------------
+Patient ID: 28
+-------------
+Number of wml Pixels: 1984
+Number of wm and not wml Pixels: 403417
+Number of wm Pixels: 405401
+Number of Pixels in the image: 8146600
+-------------
+End of testing for ID: 28
+-------------
+Total of wml Pixels: 1984
+Total of wm and not wml Pixels: 403417
+-------------
+Size of data: (405401, 12)
+Classifying using SVM...
+-------------
+Confusion Matrix:
+[395460 7957]
+[154 1830]
+-------------
+Result for ID 28:
+True Negatives: 395460
+False Positives: 7957
+False Negatives: 154
+True Positives: 1830
+-------------
+Total of evaluated pixels: 405401
+-------------
+User ID: 28 | Acurácia: 0.980
+-------------
+Error rate: 0.020
+-----------------------
+Start of the program
+Day: 11/04/2017
+-------------
+Time: 16:25:55
+-------------
+Num CPUs: 4
+-------------
+Number of elements for training: 12
+IDs for training:
+8 11 13 16 17 18 19 20 21 22 24 26 
+-------------
+Number of elements for testing: 15
+IDs for testing:
+1 2 3 4 5 6 7 9 10 12 14 15 23 25 28 
+-------------
+Start of the training
+-------------
+Operation mode: 4
+-------------
+End of the training:
+-------------
+Total number of pixels wml: 97062
+Total number of pixels wm and not wml: 775213
+-------------
+Size of data: (194124, 12)
+-------------
+Training the classifier using SVM...
+-------------
+Training using SVM finished in 55.31 seconds
+Start of the testings
+-------------
+Result for each user ID:
+--------------------------------------------------------------------------------------
+|id: 01|Acuracy: 0.944| Dice without post-processing: 0.687|std: 0.211| Dice with post-processing: 0.724|std: 0.183|
+|id: 02|Acuracy: 0.968| Dice without post-processing: 0.623|std: 0.207| Dice with post-processing: 0.717|std: 0.211|
+|id: 03|Acuracy: 0.961| Dice without post-processing: 0.351|std: 0.174| Dice with post-processing: 0.547|std: 0.272|
+|id: 04|Acuracy: 0.926| Dice without post-processing: 0.671|std: 0.096| Dice with post-processing: 0.697|std: 0.108|
+|id: 05|Acuracy: 0.932| Dice without post-processing: 0.596|std: 0.217| Dice with post-processing: 0.684|std: 0.228|
+|id: 06|Acuracy: 0.959| Dice without post-processing: 0.746|std: 0.195| Dice with post-processing: 0.800|std: 0.208|
+|id: 07|Acuracy: 0.964| Dice without post-processing: 0.718|std: 0.136| Dice with post-processing: 0.751|std: 0.176|
+|id: 09|Acuracy: 0.964| Dice without post-processing: 0.703|std: 0.232| Dice with post-processing: 0.697|std: 0.296|
+|id: 10|Acuracy: 0.868| Dice without post-processing: 0.146|std: 0.132| Dice with post-processing: 0.038|std: 0.081|
+|id: 12|Acuracy: 0.934| Dice without post-processing: 0.409|std: 0.121| Dice with post-processing: 0.533|std: 0.206|
+|id: 14|Acuracy: 0.947| Dice without post-processing: 0.647|std: 0.226| Dice with post-processing: 0.729|std: 0.216|
+|id: 15|Acuracy: 0.971| Dice without post-processing: 0.577|std: 0.272| Dice with post-processing: 0.681|std: 0.336|
+|id: 23|Acuracy: 0.935| Dice without post-processing: 0.110|std: 0.062| Dice with post-processing: 0.437|std: 0.344|
+|id: 25|Acuracy: 0.967| Dice without post-processing: 0.400|std: 0.143| Dice with post-processing: 0.656|std: 0.351|
+|id: 28|Acuracy: 0.980| Dice without post-processing: 0.305|std: 0.173| Dice with post-processing: 0.443|std: 0.418|
+--------------------------------------------------------------------------------------
+Number of elements: 15
+Average Accuracy of the testing set: 0.948
+Average Dice of the testing set without pos-processing: 0.513
+Average Dice of the testing set with pos-processing: 0.609
+-------------
+Complete Confusion Matrix:
+-------------
+[9148656 300504]
+[258672 743760]
+-------------
+Final Accuracy: 0.946
+Error rate: 0.054
+Sensibility: 0.742
+Specificity: 0.968
+Precision: 0.712
+Prevalence: 0.096
+---------------------------------------------------------
+End of the program
+-------------
+Execution time: 1174.870 seconds
+-------------
+------------------------------
+-------------
+
+
+
+-------------
+Start of the program
+Day: 04/05/2017
+-------------
+Time: 21:19:35
+-------------
+Num CPUs: 4
+-------------
+Number of elements for training: 13
+IDs for training:
+8 10 11 12 13 16 17 18 19 21 22 24 26 
+-------------
+Number of elements for testing: 14
+IDs for testing:
+1 2 3 4 5 6 7 9 14 15 20 23 25 28 
+-------------
+Start of the training
+-------------
+Operation mode: 4
+-------------
+End of the training:
+-------------
+Total number of pixels wml: 167056
+Total number of pixels wm and not wml: 1033855
+-------------
+Size of data: (334112, 12)
+-------------
+Training the classifier using SVM...
+-------------
+Training using SVM finished in 189.96 seconds
+-------------
+Training the classifier using Random Forest..
+-------------
+Training using Random Forest finished in  0.95 seconds
+-------------
+Training the classifier using kNN...
+-------------
+Training using kNN finished in  0.14 seconds
+Start of the testings
+-------------
+Patient ID: 2
+-------------
+Number of wml Pixels: 31189
+Number of wm and not wml Pixels: 724402
+Number of wm Pixels: 755591
+Number of Pixels in the image: 8146600
+-------------
+End of testing for ID: 2
+-------------
+Total of wml Pixels: 31189
+Total of wm and not wml Pixels: 724402
+-------------
+Size of data: (755591, 12)
+Classifying using SVM...
+-------------
+Classifying using RF...
+-------------
+Classifying using kNN...
+-------------
+Confusion Matrix:
+[705085 19317]
+[4734 26455]
+-------------
+Result for ID 2:
+True Negatives: 705085
+False Positives: 19317
+False Negatives: 4734
+True Positives: 26455
+-------------
+Total of evaluated pixels: 755591
+-------------
+User ID: 2 | Acurácia: 0.968
+-------------
+Error rate: 0.032
+-------------
+Sensibility: 0.848
+-------------
+Specificity: 0.973
+-------------
+Precision: 0.578
+-------------
+Prevalence: 0.041
+-------------
+User ID: 2 | Dice: 0.603
+-------------
+User ID: 2 | Dice with post-processing: 0.729 | std: 0.202
+-------------
+Patient ID: 6
+-------------
+Number of wml Pixels: 86847
+Number of wm and not wml Pixels: 731659
+Number of wm Pixels: 818506
+Number of Pixels in the image: 8146600
+-------------
+End of testing for ID: 6
+-------------
+Total of wml Pixels: 86847
+Total of wm and not wml Pixels: 731659
+-------------
+Size of data: (818506, 12)
+Classifying using SVM...
+-------------
+Classifying using RF...
+-------------
+Classifying using kNN...
+-------------
+Confusion Matrix:
+[720947 10712]
+[22149 64698]
+-------------
+Result for ID 6:
+True Negatives: 720947
+False Positives: 10712
+False Negatives: 22149
+True Positives: 64698
+-------------
+Total of evaluated pixels: 818506
+-------------
+User ID: 6 | Acurácia: 0.960
+-------------
+Error rate: 0.040
+-------------
+Sensibility: 0.745
+-------------
+Specificity: 0.985
+-------------
+Precision: 0.858
+-------------
+Prevalence: 0.106
+-------------
+User ID: 6 | Dice: 0.707
+-------------
+User ID: 6 | Dice with post-processing: 0.739 | std: 0.237
+-------------
+Patient ID: 15
+-------------
+Number of wml Pixels: 29737
+Number of wm and not wml Pixels: 735335
+Number of wm Pixels: 765072
+Number of Pixels in the image: 8146600
+-------------
+End of testing for ID: 15
+-------------
+Total of wml Pixels: 29737
+Total of wm and not wml Pixels: 735335
+-------------
+Size of data: (765072, 12)
+Classifying using SVM...
+-------------
+Classifying using RF...
+-------------
+Classifying using kNN...
+-------------
+Confusion Matrix:
+[711797 23538]
+[3882 25855]
+-------------
+Result for ID 15:
+True Negatives: 711797
+False Positives: 23538
+False Negatives: 3882
+True Positives: 25855
+-------------
+Total of evaluated pixels: 765072
+-------------
+User ID: 15 | Acurácia: 0.964
+-------------
+Error rate: 0.036
+-------------
+Sensibility: 0.869
+-------------
+Specificity: 0.968
+-------------
+Precision: 0.523
+-------------
+Prevalence: 0.039
+-------------
+User ID: 15 | Dice: 0.544
+-------------
+User ID: 15 | Dice with post-processing: 0.690 | std: 0.335
+-------------
+Patient ID: 25
+-------------
+Number of wml Pixels: 1969
+Number of wm and not wml Pixels: 128752
+Number of wm Pixels: 130721
+Number of Pixels in the image: 8093700
+-------------
+End of testing f-------------
+Start of the program
+Day: 04/05/2017
+-------------
+Time: 21:19:35
+-------------
+Num CPUs: 4
+-------------
+Number of elements for training: 13
+IDs for training:
+8 10 11 12 13 16 17 18 19 21 22 24 26 
+-------------
+Number of elements for testing: 14
+IDs for testing:
+1 2 3 4 5 6 7 9 14 15 20 23 25 28 
+-------------
+Start of the training
+-------------
+Operation mode: 4
+-------------
+End of the training:
+-------------
+Total number of pixels wml: 167056
+Total number of pixels wm and not wml: 1033855
+-------------
+Size of data: (334112, 12)
+-------------
+Training the classifier using SVM...
+-------------
+Training using SVM finished in 189.96 seconds
+-------------
+Training the classifier using Random Forest..
+-------------
+Training using Random Forest finished in  0.95 seconds
+-------------
+Training the classifier using kNN...
+-------------
+Training using kNN finished in  0.14 seconds
+Start of the testings
+-------------
+Patient ID: 1
+-------------
+Number of wml Pixels: 127992
+Number of wm and not wml Pixels: 727490
+Number of wm Pixels: 855482
+Number of Pixels in the image: 8146600
+-------------
+End of testing for ID: 1
+-------------
+Total of wml Pixels: 127992
+Total of wm and not wml Pixels: 727490
+-------------
+Size of data: (855482, 12)
+Classifying using SVM...
+-------------
+Classifying using RF...
+-------------
+Classifying using kNN...
+-------------
+Confusion Matrix:
+[700728 26762]
+[32605 95387]
+-------------
+Result for ID 1:
+True Negatives: 700728
+False Positives: 26762
+False Negatives: 32605
+True Positives: 95387
+-------------
+Total of evaluated pixels: 855482
+-------------
+User ID: 1 | Acurácia: 0.931
+-------------
+Error rate: 0.069
+-------------
+Sensibility: 0.745
+-------------
+Specificity: 0.963
+-------------
+Precision: 0.781
+-------------
+Prevalence: 0.150
+-------------
+User ID: 1 | Dice: 0.652
+-------------
+User ID: 1 | Dice with post-processing: 0.703 | std: 0.216
+-------------
+Patient ID: 7
+-------------
+Number of wml Pixels: 77601
+Number of wm and not wml Pixels: 781917
+Number of wm Pixels: 859518
+Number of Pixels in the image: 8146600
+-------------
+End of testing for ID: 7
+-------------
+Total of wml Pixels: 77601
+Total of wm and not wml Pixels: 781917
+-------------
+Size of data: (859518, 12)
+Classifying using SVM...
+-------------
+Classifying using RF...
+-------------
+Classifying using kNN...
+-------------
+Confusion Matrix:
+[744900 37017]
+[13142 64459]
+-------------
+Result for ID 7:
+True Negatives: 744900
+False Positives: 37017
+False Negatives: 13142
+True Positives: 64459
+-------------
+Total of evaluated pixels: 859518
+-------------
+User ID: 7 | Acurácia: 0.942
+-------------
+Error rate: 0.058
+-------------
+Sensibility: 0.831
+-------------
+Specificity: 0.953
+-------------
+Precision: 0.635
+-------------
+Prevalence: 0.090
+-------------
+User ID: 7 | Dice: 0.593
+-------------
+User ID: 7 | Dice with post-processing: 0.718 | std: 0.159
+-------------
+Patient ID: 20
+-------------
+Number of wml Pixels: 21916
+Number of wm and not wml Pixels: 95249
+Number of wm Pixels: 117165
+Number of Pixels in the image: 8146600
+-------------
+End of testing for ID: 20
+-------------
+Total of wml Pixels: 21916
+Total of wm and not wml Pixels: 95249
+-------------
+Size of data: (117165, 12)
+Classifying using SVM...
+-------------
+Classifying using RF...
+-------------
+Classifying using kNN...
+-------------
+Confusion Matrix:
+[94488 761]
+[20747 1169]
+-------------
+Result for ID 20:
+True Negatives: 94488
+False Positives: 761
+False Negatives: 20747
+True Positives: 1169
+-------------
+Total of evaluated pixels: 117165
+-------------
+User ID: 20 | Acurácia: 0.816
+-------------
+Error rate: 0.184
+-------------
+Sensibility: 0.053
+-------------
+Specificity: 0.992
+-------------
+Precision: 0.606
+-------------
+Prevalence: 0.187
+-------------
+User ID: 20 | Dice: 0.081
+-------------
+User ID: 20 | Dice with post-processing: 0.000 | std: 0.000
+-------------
+Patient ID: 23
+-------------
+Number of wml Pixels: 1368
+Number of wm and not wml Pixels: 278818
+Number of wm Pixels: 280186
+Number of Pixels in the image: 8146600
+-------------
+End of testing for I-------------
+Start of the program
+Day: 04/05/2017
+-------------
+Time: 21:19:35
+-------------
+Num CPUs: 4
+-------------
+Number of elements for training: 13
+IDs for training:
+8 10 11 12 13 16 17 18 19 21 22 24 26 
+-------------
+Number of elements for testing: 14
+IDs for testing:
+1 2 3 4 5 6 7 9 14 15 20 23 25 28 
+-------------
+Start of the training
+-------------
+Operation mode: 4
+-------------
+End of the training:
+-------------
+Total number of pixels wml: 167056
+Total number of pixels wm and not wml: 1033855
+-------------
+Size of data: (334112, 12)
+-------------
+Training the classifier using SVM...
+-------------
+Training using SVM finished in 189.96 seconds
+-------------
+Training the classifier using Random Forest..
+-------------
+Training using Random Forest finished in  0.95 seconds
+-------------
+Training the classifier using kNN...
+-------------
+Training using kNN finished in  0.14 seconds
+Start of the testings
+-------------
+Result for each user ID:
+--------------------------------------------------------------------------------------
+|id: 01|Acuracy: 0.931| Dice without post-processing: 0.652|std: 0.220| Dice with post-processing: 0.703|std: 0.216|
+|id: 02|Acuracy: 0.968| Dice without post-processing: 0.603|std: 0.200| Dice with post-processing: 0.729|std: 0.202|
+|id: 03|Acuracy: 0.954| Dice without post-processing: 0.318|std: 0.160| Dice with post-processing: 0.549|std: 0.259|
+|id: 04|Acuracy: 0.890| Dice without post-processing: 0.550|std: 0.100| Dice with post-processing: 0.565|std: 0.130|
+|id: 05|Acuracy: 0.925| Dice without post-processing: 0.454|std: 0.137| Dice with post-processing: 0.381|std: 0.202|
+|id: 06|Acuracy: 0.960| Dice without post-processing: 0.707|std: 0.194| Dice with post-processing: 0.739|std: 0.237|
+|id: 07|Acuracy: 0.942| Dice without post-processing: 0.593|std: 0.195| Dice with post-processing: 0.718|std: 0.159|
+|id: 09|Acuracy: 0.948| Dice without post-processing: 0.597|std: 0.265| Dice with post-processing: 0.574|std: 0.325|
+|id: 14|Acuracy: 0.945| Dice without post-processing: 0.599|std: 0.229| Dice with post-processing: 0.644|std: 0.245|
+|id: 15|Acuracy: 0.964| Dice without post-processing: 0.544|std: 0.264| Dice with post-processing: 0.690|std: 0.335|
+|id: 20|Acuracy: 0.816| Dice without post-processing: 0.081|std: 0.072| Dice with post-processing: 0.000|std: 0.000|
+|id: 23|Acuracy: 0.970| Dice without post-processing: 0.171|std: 0.114| Dice with post-processing: 0.475|std: 0.431|
+|id: 25|Acuracy: 0.970| Dice without post-processing: 0.371|std: 0.163| Dice with post-processing: 0.568|std: 0.380|
+|id: 28|Acuracy: 0.964| Dice without post-processing: 0.207|std: 0.131| Dice with post-processing: 0.432|std: 0.405|
+--------------------------------------------------------------------------------------
+Number of elements: 14
+Average Accuracy of the testing set: 0.939
+Average Dice of the testing set without pos-processing: 0.460
+Average Dice of the testing set with pos-processing: 0.555
+-------------
+Complete Confusion Matrix:
+-------------
+[8211164 210851]
+[336436 582583]
+-------------
+Final Accuracy: 0.941
+Error rate: 0.059
+Sensibility: 0.634
+Specificity: 0.975
+Precision: 0.734
+Prevalence: 0.098
+---------------------------------------------------------
+End of the program
+-------------
+Execution time: 2388.399 seconds
+-------------
+------------------------------
+-------------
+
+
+-------------
+Start of the program
+Day: 04/05/2017
+-------------
+Time: 22:45:44
+-------------
+Num CPUs: 4
+-------------
+Number of elements for training: 13
+IDs for training:
+8 10 11 12 13 16 17 18 19 21 22 24 26 
+-------------
+Number of elements for testing: 14
+IDs for testing:
+1 2 3 4 5 6 7 9 14 15 20 23 25 28 
+-------------
+Start of the training
+-------------
+Operation mode: 4
+-------------
+End of the training:
+-------------
+Total number of pixels wml: 167056
+Total number of pixels wm and not wml: 1033855
+-------------
+Size of data: (334112, 12)
+-------------
+Training the classifier using SVM...
+-------------
+Training using SVM finished in 162.55 seconds
+-------------
+Training the classifier using Random Forest..
+-------------
+Training using Random Forest finished in  0.75 seconds
+-------------
+Training the classifier using kNN...
+-------------
+Training using kNN finished in  0.10 seconds
+Start of the testings
+-------------
+Patient ID: 1
+-------------
+Number of wml Pixels: 127992
+Number of wm and not wml Pixels: 727490
+Number of wm Pixels: 855482
+Number of Pixels in the image: 8146600
+-------------
+End of testing for ID: 1
+-------------
+Total of wml Pixels: 127992
+Total of wm and not wml Pixels: 727490
+-------------
+Size of data: (855482, 12)
+Classifying using SVM...
+-------------
+Classifying using RF...
+-------------
+Classifying using kNN...
+-------------
+Confusion Matrix:
+[698159 29331]
+[34202 93790]
+-------------
+Result for ID 1:
+True Negatives: 698159
+False Positives: 29331
+False Negatives: 34202
+True Positives: 93790
+-------------
+Total of evaluated pixels: 855482
+-------------
+User ID: 1 | Acurácia: 0.926
+-------------
+Error rate: 0.074
+-------------
+Sensibility: 0.733
+-------------
+Specificity: 0.960
+-------------
+Precision: 0.762
+-------------
+Prevalence: 0.150
+-------------
+User ID: 1 | Dice: 0.633
+-------------
+User ID: 1 | Dice with post-processing: 0.699 | std: 0.210
+-------------
+Patient ID: 7
+-------------
+Number of wml Pixels: 77601
+Number of wm and not wml Pixels: 781917
+Number of wm Pixels: 859518
+Number of Pixels in the image: 8146600
+-------------
+End of testing for ID: 7
+-------------
+Total of wml Pixels: 77601
+Total of wm and not wml Pixels: 781917
+-------------
+Size of data: (859518, 12)
+Classifying using SVM...
+-------------
+Classifying using RF...
+-------------
+Classifying using kNN...
+-------------
+Confusion Matrix:
+[723211 58706]
+[13016 64585]
+-------------
+Result for ID 7:
+True Negatives: 723211
+False Positives: 58706
+False Negatives: 13016
+True Positives: 64585
+-------------
+Total of evaluated pixels: 859518
+-------------
+User ID: 7 | Acurácia: 0.917
+-------------
+Error rate: 0.083
+-------------
+Sensibility: 0.832
+-------------
+Specificity: 0.925
+-------------
+Precision: 0.524
+-------------
+Prevalence: 0.090
+-------------
+User ID: 7 | Dice: 0.531
+-------------
+User ID: 7 | Dice with post-processing: 0.673 | std: 0.198
+-------------
+Patient ID: 20
+-------------
+Number of wml Pixels: 21916
+Number of wm and not wml Pixels: 95249
+Number of wm Pixels: 117165
+Number of Pixels in the image: 8146600
+-------------
+End of testing for ID: 20
+-------------
+Total of wml Pixels: 21916
+Total of wm and not wml Pixels: 95249
+-------------
+Size of data: (117165, 12)
+Classifying using SVM...
+-------------
+Classifying using RF...
+-------------
+Classifying using kNN...
+-------------
+Confusion Matrix:
+[94758 491]
+[21280 636]
+-------------
+Result for ID 20:
+True Negatives: 94758
+False Positives: 491
+False Negatives: 21280
+True Positives: 636
+-------------
+Total of evaluated pixels: 117165
+-------------
+User ID: 20 | Acurácia: 0.814
+-------------
+Error rate: 0.186
+-------------
+Sensibility: 0.029
+-------------
+Specificity: 0.995
+-------------
+Precision: 0.564
+-------------
+Prevalence: 0.187
+-------------
+User ID: 20 | Dice: 0.049
+-------------
+User ID: 20 | Dice with post-processing: 0.000 | std: 0.000
+-------------
+Patient ID: 23
+-------------
+Number of wml Pixels: 1368
+Number of wm and not wml Pixels: 278818
+Number of wm Pixels: 280186
+Number of Pixels in the image: 8146600
+-------------
+End of testing for ID:-------------
+Start of the program
+Day: 04/05/2017
+-------------
+Time: 22:45:44
+-------------
+Num CPUs: 4
+-------------
+Number of elements for training: 13
+IDs for training:
+8 10 11 12 13 16 17 18 19 21 22 24 26 
+-------------
+Number of elements for testing: 14
+IDs for testing:
+1 2 3 4 5 6 7 9 14 15 20 23 25 28 
+-------------
+Start of the training
+-------------
+Operation mode: 4
+-------------
+End of the training:
+-------------
+Total number of pixels wml: 167056
+Total number of pixels wm and not wml: 1033855
+-------------
+Size of data: (334112, 12)
+-------------
+Training the classifier using SVM...
+-------------
+Training using SVM finished in 162.55 seconds
+-------------
+Training the classifier using Random Forest..
+-------------
+Training using Random Forest finished in  0.75 seconds
+-------------
+Training the classifier using kNN...
+-------------
+Training using kNN finished in  0.10 seconds
+Start of the testings
+-------------
+Patient ID: 2
+-------------
+Number of wml Pixels: 31189
+Number of wm and not wml Pixels: 724402
+Number of wm Pixels: 755591
+Number of Pixels in the image: 8146600
+-------------
+End of testing for ID: 2
+-------------
+Total of wml Pixels: 31189
+Total of wm and not wml Pixels: 724402
+-------------
+Size of data: (755591, 12)
+Classifying using SVM...
+-------------
+Classifying using RF...
+-------------
+Classifying using kNN...
+-------------
+Confusion Matrix:
+[707101 17301]
+[5268 25921]
+-------------
+Result for ID 2:
+True Negatives: 707101
+False Positives: 17301
+False Negatives: 5268
+True Positives: 25921
+-------------
+Total of evaluated pixels: 755591
+-------------
+User ID: 2 | Acurácia: 0.970
+-------------
+Error rate: 0.030
+-------------
+Sensibility: 0.831
+-------------
+Specificity: 0.976
+-------------
+Precision: 0.600
+-------------
+Prevalence: 0.041
+-------------
+User ID: 2 | Dice: 0.603
+-------------
+User ID: 2 | Dice with post-processing: 0.728 | std: 0.225
+-------------
+Patient ID: 6
+-------------
+Number of wml Pixels: 86847
+Number of wm and not wml Pixels: 731659
+Number of wm Pixels: 818506
+Number of Pixels in the image: 8146600
+-------------
+End of testing for ID: 6
+-------------
+Total of wml Pixels: 86847
+Total of wm and not wml Pixels: 731659
+-------------
+Size of data: (818506, 12)
+Classifying using SVM...
+-------------
+Classifying using RF...
+-------------
+Classifying using kNN...
+-------------
+Confusion Matrix:
+[723388 8271]
+[27828 59019]
+-------------
+Result for ID 6:
+True Negatives: 723388
+False Positives: 8271
+False Negatives: 27828
+True Positives: 59019
+-------------
+Total of evaluated pixels: 818506
+-------------
+User ID: 6 | Acurácia: 0.956
+-------------
+Error rate: 0.044
+-------------
+Sensibility: 0.680
+-------------
+Specificity: 0.989
+-------------
+Precision: 0.877
+-------------
+Prevalence: 0.106
+-------------
+User ID: 6 | Dice: 0.681
+-------------
+User ID: 6 | Dice with post-processing: 0.707 | std: 0.232
+-------------
+Patient ID: 15
+-------------
+Number of wml Pixels: 29737
+Number of wm and not wml Pixels: 735335
+Number of wm Pixels: 765072
+Number of Pixels in the image: 8146600
+-------------
+End of testing for ID: 15
+-------------
+Total of wml Pixels: 29737
+Total of wm and not wml Pixels: 735335
+-------------
+Size of data: (765072, 12)
+Classifying using SVM...
+-------------
+Classifying using RF...
+-------------
+Classifying using kNN...
+-------------
+Confusion Matrix:
+[712204 23131]
+[4614 25123]
+-------------
+Result for ID 15:
+True Negatives: 712204
+False Positives: 23131
+False Negatives: 4614
+True Positives: 25123
+-------------
+Total of evaluated pixels: 765072
+-------------
+User ID: 15 | Acurácia: 0.964
+-------------
+Error rate: 0.036
+-------------
+Sensibility: 0.845
+-------------
+Specificity: 0.969
+-------------
+Precision: 0.521
+-------------
+Prevalence: 0.039
+-------------
+User ID: 15 | Dice: 0.528
+-------------
+User ID: 15 | Dice with post-processing: 0.673 | std: 0.350
+-------------
+Patient ID: 25
+-------------
+Number of wml Pixels: 1969
+Number of wm and not wml Pixels: 128752
+Number of wm Pixels: 130721
+Number of Pixels in the image: 8093700
+-------------
+End of testing for-------------
+Start of the program
+Day: 04/05/2017
+-------------
+Time: 22:45:44
+-------------
+Num CPUs: 4
+-------------
+Number of elements for training: 13
+IDs for training:
+8 10 11 12 13 16 17 18 19 21 22 24 26 
+-------------
+Number of elements for testing: 14
+IDs for testing:
+1 2 3 4 5 6 7 9 14 15 20 23 25 28 
+-------------
+Start of the training
+-------------
+Operation mode: 4
+-------------
+End of the training:
+-------------
+Total number of pixels wml: 167056
+Total number of pixels wm and not wml: 1033855
+-------------
+Size of data: (334112, 12)
+-------------
+Training the classifier using SVM...
+-------------
+Training using SVM finished in 162.55 seconds
+-------------
+Training the classifier using Random Forest..
+-------------
+Training using Random Forest finished in  0.75 seconds
+-------------
+Training the classifier using kNN...
+-------------
+Training using kNN finished in  0.10 seconds
+Start of the testings
+-------------
+Result for each user ID:
+--------------------------------------------------------------------------------------
+|id: 01|Acuracy: 0.926| Dice without post-processing: 0.633|std: 0.222| Dice with post-processing: 0.699|std: 0.210|
+|id: 02|Acuracy: 0.970| Dice without post-processing: 0.603|std: 0.220| Dice with post-processing: 0.728|std: 0.225|
+|id: 03|Acuracy: 0.959| Dice without post-processing: 0.337|std: 0.168| Dice with post-processing: 0.586|std: 0.262|
+|id: 04|Acuracy: 0.895| Dice without post-processing: 0.553|std: 0.095| Dice with post-processing: 0.582|std: 0.128|
+|id: 05|Acuracy: 0.917| Dice without post-processing: 0.369|std: 0.137| Dice with post-processing: 0.284|std: 0.213|
+|id: 06|Acuracy: 0.956| Dice without post-processing: 0.681|std: 0.196| Dice with post-processing: 0.707|std: 0.232|
+|id: 07|Acuracy: 0.917| Dice without post-processing: 0.531|std: 0.243| Dice with post-processing: 0.673|std: 0.198|
+|id: 09|Acuracy: 0.945| Dice without post-processing: 0.565|std: 0.277| Dice with post-processing: 0.555|std: 0.315|
+|id: 14|Acuracy: 0.947| Dice without post-processing: 0.596|std: 0.229| Dice with post-processing: 0.625|std: 0.253|
+|id: 15|Acuracy: 0.964| Dice without post-processing: 0.528|std: 0.278| Dice with post-processing: 0.673|std: 0.350|
+|id: 20|Acuracy: 0.814| Dice without post-processing: 0.049|std: 0.060| Dice with post-processing: 0.000|std: 0.000|
+|id: 23|Acuracy: 0.978| Dice without post-processing: 0.194|std: 0.140| Dice with post-processing: 0.429|std: 0.431|
+|id: 25|Acuracy: 0.973| Dice without post-processing: 0.375|std: 0.173| Dice with post-processing: 0.532|std: 0.391|
+|id: 28|Acuracy: 0.959| Dice without post-processing: 0.178|std: 0.122| Dice with post-processing: 0.434|std: 0.409|
+--------------------------------------------------------------------------------------
+Number of elements: 14
+Average Accuracy of the testing set: 0.937
+Average Dice of the testing set without pos-processing: 0.442
+Average Dice of the testing set with pos-processing: 0.536
+-------------
+Complete Confusion Matrix:
+-------------
+[8205580 216435]
+[360898 558121]
+-------------
+Final Accuracy: 0.938
+Error rate: 0.062
+Sensibility: 0.607
+Specificity: 0.974
+Precision: 0.721
+Prevalence: 0.098
+---------------------------------------------------------
+End of the program
+-------------
+Execution time: 1957.957 seconds
+-------------
+------------------------------
+-------------
+
+
